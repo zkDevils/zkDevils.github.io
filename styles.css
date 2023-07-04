@@ -10,12 +10,13 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('lgBanner.png');
+    background-image: url('your-transparent-image.png');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 9999;
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
 }
 
 #content {
@@ -36,11 +37,3 @@ body {
     z-index: 1;
 }
 
-.hide-overlay {
-    opacity: 0;
-}
-
-.expand-landing-page {
-    transform: scale(1.2);
-    transition: transform 0.5s ease-in-out;
-}
