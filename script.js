@@ -1,16 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
     const overlay = document.getElementById('overlay');
     const landingPage = document.getElementById('landing-page');
+    let previousScroll = 0;
 
-    window.addEventListener('scroll', function() {
-        const scrollPercentage = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+    function handleScroll() {
+        const currentScroll = window.pageYOffset;
+        const scrollDelta = currentScroll - previousScroll;
 
-        if (scrollPercentage > 0.1) {
-            overlay.classList.add('hide-overlay');
-            landingPage.classList.add('expand-landing-page');
-        } else {
-            overlay.classList.remove('hide-overlay');
-            landingPage.classList.remove('expand-landing-page');
+        if (scrollDelta > 0) {
+            overlay.style.opacity = 1 - (currentScroll / (document.documentElement.scrollHeight - window.innerHeight));
         }
-    });
+
+        previousScroll = currentScroll;
+    }
+
+    window.addEventListener('scroll', handleScroll);
 });
