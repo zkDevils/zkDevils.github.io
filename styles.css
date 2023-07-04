@@ -8,8 +8,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw; /* Use viewport units instead of percentage */
+    height: 100vh; /* Use viewport units instead of percentage */
     background-image: url('https://raw.githubusercontent.com/zkDevils/zkDevils.github.io/main/img/lgBanner.png');
     background-repeat: no-repeat;
     background-size: cover;
