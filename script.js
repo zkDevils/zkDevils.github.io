@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const landingPage = document.getElementById('landing-page');
     const overlayHeight = overlay.offsetHeight;
     const landingPageHeight = landingPage.offsetHeight;
-    const scrollThreshold = 300; // Adjust this value to control the scroll threshold for the animation
+    const scrollThreshold = 600; // Adjust this value to control the scroll threshold for the animation
     const overlaySpeed = 0.5; // Adjust this value to control the scrolling speed
 
     function handleScroll() {
