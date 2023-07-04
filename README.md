@@ -1,3 +1,3 @@
 # dapp 
-zkDevils Website Testing <br>
-To view a Github page in real time:  https://{userid}.github.io/{reponame}
+zkDevils Website sandbox <br>
+To view in real time:  https://zkDevils.github.io
