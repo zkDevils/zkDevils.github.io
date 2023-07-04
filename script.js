@@ -2,22 +2,24 @@ document.addEventListener('DOMContentLoaded', function() {
     const overlay = document.getElementById('overlay');
     const content = document.getElementById('content');
     const landingPage = document.getElementById('landing-page');
-    let previousScroll = 0;
+    const overlayHeight = overlay.offsetHeight;
+    const landingPageHeight = landingPage.offsetHeight;
+    const scrollThreshold = 300; // Adjust this value to control the scroll threshold for the animation
+    const overlaySpeed = 0.5; // Adjust this value to control the scrolling speed
 
     function handleScroll() {
         const currentScroll = window.pageYOffset;
-        const scrollDelta = currentScroll - previousScroll;
-        const scrollThreshold = 300; // Adjust this value to control the scroll threshold for the animation
+        const overlayOffset = Math.min(currentScroll * overlaySpeed, scrollThreshold);
+        const contentOpacity = 1 - (currentScroll / scrollThreshold);
 
-        if (currentScroll > scrollThreshold) {
-            overlay.style.transform = `scale(${1 - (scrollThreshold / currentScroll)})`;
-            content.style.opacity = 0;
+        overlay.style.top = `calc(50% + ${overlayOffset}px)`;
+        content.style.opacity = contentOpacity > 0 ? contentOpacity : 0;
+
+        if (currentScroll >= scrollThreshold) {
+            overlay.style.display = 'none';
         } else {
-            overlay.style.transform = 'scale(1)';
-            content.style.opacity = 1;
+            overlay.style.display = 'block';
         }
-
-        previousScroll = currentScroll;
     }
 
     window.addEventListener('scroll', handleScroll);
