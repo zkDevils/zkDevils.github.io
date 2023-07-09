@@ -1,0 +1,17 @@
+When assigned a CID from IPFS to view or link you 
+must add a prefix / gateway. 
+This is the default gateway: 
+   https://ipfs.io/ipfs/  
+ ex: 
+    <img src="https://ipfs.io/ipfs/QmP6QzftM3SkX5qR45XPVGLwSQLAUgCpNetpWjqgJjL5qg/Discord.png"style="width:64px;height:64px;">
+ 
+ You can also use the thirdweb gateway:
+  https://ipfs.thirdwebstorage.com/ipfs/
+
+CID(s) (Content IDentifier) :
+ipfs://QmP6QzftM3SkX5qR45XPVGLwSQLAUgCpNetpWjqgJjL5qg/Discord.png
+ipfs://QmfGReSB94sd9PLb6We3z41orjN2f1GzY7pgpLvSDLjxqc/Twitter.png
+ipfs://QmWuMYtWgxanaKebVNqKooGT3R5vHvS5BvyUFC17Lzn9up/Youtube.png
+ipfs://QmbTbRxd5mm7r1uPrVjdaTRah4LDtAY1dguoS9ZYKLxqfX/Instagram.png
+zkDevilsInfographic
+ipfs://QmetWNAU52JvKiyBMxzMBmY7CeGudEZVm1wKrZvT37a32W/%F0%9F%94%A5The%20zkDevils%20OG%20Pass%F0%9F%94%A5%20Our%20limited%20edition%20pre%20release%2C%20exclusively%20for%20the%20early%20adopters%20of%20our%20community.%20(1).mp4
