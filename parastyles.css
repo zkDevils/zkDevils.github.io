@@ -61,7 +61,7 @@ section {
   color: rgb(255, 255, 255);
 }
 .full-screen-section:not(:first-child) {
-  border-top: 1px solid #ffffff;
+  border-top: 1px hidden;
   margin-top: -1px;
 }
 
