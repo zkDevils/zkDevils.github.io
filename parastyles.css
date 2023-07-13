@@ -5,8 +5,10 @@ body {
 
 .wrapper {
   height: 100vh;
+  margin: px;
   overflow-y: auto;
   overflow-x: hidden;
+
   perspective: 10px;
 }
 
@@ -22,7 +24,7 @@ header {
 .parallax-layer {
   position: absolute;
   height: 780;
-  width: calc(100vh / 1080 * 1920);
+  width: calc(100vh / 720 * 1100);
   object-fit: cover;
   z-index: 1;
 }
@@ -46,19 +48,39 @@ header {
 .foreground:nth-child(5) {
   transform: translateZ(-2.5px) scale(1.1);
 }
+/* Create three equal columns that floats next to each other */
+.column {
+  float: right;
+  width: 30%;
+  padding: 5px;
+}
 
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns  on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
 
 .title {
   font-size: 7rem;
   color: rgb(255, 255, 255);
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 10 5px rgb(0, 0, 0);
 }
 
 section {
   font-size: 2rem;
   padding: 2rem;
-  background-color: #000000;
+  background-color: #ffffff00;
   color: rgb(255, 255, 255);
+  text-shadow:11 2 25px rgb(0, 0, 0);
 }
 .full-screen-section:not(:first-child) {
   border-top: 1px hidden;
