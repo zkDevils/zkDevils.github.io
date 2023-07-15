@@ -49,10 +49,15 @@ header {
   transform: translateZ(-2.5px) scale(1.1);
 }
 /* Create three equal columns that floats next to each other */
+
 .column {
   float: right;
   width: 30%;
   padding: 5px;
+  color: azure;
+  text-shadow: #00000000;
+  text-decoration-color: black;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -93,4 +98,5 @@ section {
   height: auto;
   padding: 10px;
   border: none ;
+  P { text-align: center }
 }
