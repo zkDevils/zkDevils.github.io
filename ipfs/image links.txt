@@ -15,3 +15,15 @@ ipfs://QmWuMYtWgxanaKebVNqKooGT3R5vHvS5BvyUFC17Lzn9up/Youtube.png
 ipfs://QmbTbRxd5mm7r1uPrVjdaTRah4LDtAY1dguoS9ZYKLxqfX/Instagram.png
 zkDevilsInfographic
 ipfs://QmetWNAU52JvKiyBMxzMBmY7CeGudEZVm1wKrZvT37a32W/%F0%9F%94%A5The%20zkDevils%20OG%20Pass%F0%9F%94%A5%20Our%20limited%20edition%20pre%20release%2C%20exclusively%20for%20the%20early%20adopters%20of%20our%20community.%20(1).mp4
+--------------------------------------
+video
+ipfs://QmetWNAU52JvKiyBMxzMBmY7CeGudEZVm1wKrZvT37a32W/%F0%9F%94%A5The%20zkDevils%20OG%20Pass%F0%9F%94%A5%20Our%20limited%20edition%20pre%20release%2C%20exclusively%20for%20the%20early%20adopters%20of%20our%20community.%20(1).mp4
+
+------------------------------
+https://ipfs.io/ipfs/QmWqrd4kv8UhuvTR9bCAzRqfoBk4Ee6Li8NMkrcctmUkwQ/zkpromoUno.mp4
+
+phone size
+https://ipfs.io/ipfs/QmVSxY8WFnz8Qhd7kZCfiF6nVTt8U797tnduoHXmQvswhT/zkpromophone.mp4
+
+video
+https://ipfs.io/ipfs/QmV5k9s6tmAYp2mWPYZfxenFSdf2sX2MYXbFsXi2yk6Kb6/FINAL.mp4
