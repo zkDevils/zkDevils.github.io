@@ -5,10 +5,38 @@ body {
   font-size: 14px;
   color: rgb(255, 255, 255);
 }
+/* Apply the following CSS to all images within the body */
+body img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
 
 body p {
   color: rgb(255, 255, 255);
 }
+
+/* Root font size (baseline) for responsive scaling */
+html {
+  font-size: 16px;
+}
+
+/* Body text */
+body {
+  font-size: 1rem; /* 1rem = 16px */
+}
+
+/* Heading styles (example) */
+h1 {
+  font-size: 2rem; /* 2rem = 32px */
+}
+
+h2 {
+  font-size: 1.5rem; /* 1.5rem = 24px */
+}
+
+/* More heading styles as needed */
+
 
 /* Center all images, videos, and text on the page */
 fa {
@@ -21,7 +49,7 @@ fa {
 }
 
 #myVideo {
-  width: 100px; /* Adjust the width as desired */
+  width: 500px; /* Adjust the width as desired */
   height: auto; /* Maintain aspect ratio */
 }
 
@@ -29,3 +57,29 @@ fa {
   display: flex;
   justify-content: center;
 }
+#fullscreen-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999; /* Ensure the video is on top of other elements */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Adjust the value as needed to increase/decrease horizontal spacing */
+}
+
+/* Optional: Center the whole block on the page */
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  width: 80px; /* Adjust the size as needed for easy clicking on mobile devices */
+  height: 80px;
+}
+
